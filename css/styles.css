@@ -115,20 +115,29 @@ img {
 
 .hero-text {
   /* font-family: "Roboto", sans-serif; */
+  min-width: 496px;
+
   font-weight: 700;
   font-size: 56px;
-
   line-height: 1.07; /* line-height: 60px; */
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
+.hero-align {
+  padding: 188px 0;
+}
+
 .order-btn {
   /* font-family: "Roboto", sans-serif; */
+  border: none;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+
   font-weight: 500;
   font-size: 16px;
-
   line-height: 1.5; /* line-height: 24px; */
   letter-spacing: 0.04em;
   color: #fff;
