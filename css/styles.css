@@ -132,7 +132,7 @@ img {
 .order-btn {
   /* font-family: "Roboto", sans-serif; */
   border: none;
-  min-width: 169px;
+  max-width: 169px;
   height: 56px;
   border-radius: 4px;
 
