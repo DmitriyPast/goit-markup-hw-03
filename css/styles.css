@@ -151,7 +151,8 @@ img {
 }
 
 section.features,
-section.team {
+section.team,
+section.portfolio {
   padding: 120px 0;
 }
 
@@ -169,7 +170,8 @@ section.team {
   overflow: hidden;
 }
 
-.feature-list, .team-list {
+.feature-list,
+.team-list {
   display: flex;
   gap: 24px;
 }
@@ -252,6 +254,23 @@ section.team {
   color: #434455;
 }
 
+.proj-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 48px;
+}
+
+.proj-card{
+  width: calc((100% - 48px) / 3);
+}
+
+.pc-text-container {
+  border-top: none;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
+}
+
 .proj-title {
   /* font-family: "Roboto", sans-serif; */
   font-weight: 500;
@@ -281,4 +300,13 @@ section.team {
   line-height: 1.5; /* line-height: 24px; */
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.ws-bottom {
+  padding: 100px 0;
+}
+
+.inline{
+  display: inline-block;
+  margin-bottom: 16px;
 }
