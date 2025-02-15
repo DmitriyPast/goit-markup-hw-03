@@ -257,7 +257,8 @@ section.portfolio {
 .proj-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 48px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .proj-card{
@@ -268,7 +269,6 @@ section.portfolio {
   border-top: none;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  margin-bottom: 8px;
 }
 
 .proj-title {
@@ -279,6 +279,7 @@ section.portfolio {
   line-height: 1.2; /* line-height: 24px; */
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .proj-type {
