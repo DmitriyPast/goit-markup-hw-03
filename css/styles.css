@@ -32,7 +32,7 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  display: flex;
+  /* display: flex; */
 }
 
 .site-hdr {
@@ -307,7 +307,7 @@ section.portfolio {
   padding: 100px 0;
 }
 
-.ws-bottom a {
+.block {
   display: inline-block;
   margin-bottom: 16px;
 }
