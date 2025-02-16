@@ -38,7 +38,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.site-hdr.container { 
+.site-hdr>.container { 
   display: flex;
 }
 
